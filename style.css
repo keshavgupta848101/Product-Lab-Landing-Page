@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+        background-color: lightblue;
+
+}
+
+nav{
+    width: 80vw;
+    height: 9vh;
+    background-color: teal;
+    border-bottom: 2px solid black;
+}
+
+nav ul{    
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    padding: 10px;
+}
+nav ul li{
+    padding: 12px;
+    color: white;
+}
+#office{
+    margin-right: auto;
+}
+
+#signup{
+    background-color: gray;
+    border-radius: 10px;
+}
+
+#signup:hover{
+    background-color:rgb(190, 184, 184);
+}
+
+section{
+    display: flex;
+}
+
+section .left{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    color: black;
+}
+
+button{
+    width: 18%;
+    height: 45px;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: teal;
+    margin-top: 5px;
+    color: white;
+    font-size: 1rem;
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    line-height: 25px;
+}
+
+section .right{ 
+    padding: 40px;
+}
+
+main{
+    width: 80%;
+    margin: 0% 10%;
+}
